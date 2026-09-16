@@ -1,11 +1,11 @@
 body {
-    background-color: #71989B;
+    background-color: #EFEFEC;
     font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
 }
 
 .TOP-BAR {
-    background-color: #6C7A7A;
+    background-color: #31527A;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,7 +16,7 @@ body {
 }
 
 .TOP-BAR h1{
-    color: #24293D;
+    color: #EFEFEC;
 }
 
 .links{
@@ -36,12 +36,12 @@ body {
 
 .links li a{
     text-decoration: none;
-    color: #24293D;
+    color: #EFEFEC;
 }
 
 .links li a:hover{
     opacity: 0.6;
-    color: antiquewhite;
+    color: #74A5B6;
     transition-duration: 0.5s;
 }
 
@@ -60,6 +60,7 @@ body {
 .content{
     font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     display: flexbox;
+    color: #31527A;
 }
 
 .content li{
@@ -74,13 +75,60 @@ body {
 
 .cars h1{
     font-size: 30px;
-    color: #24293D;
+    color: #31527A;
 }
 
 .cars p{
     font-size: 20px;
 }
 
+.car h2{
+    color: #31527A;
+    font-size: 25px;
+}
+
 .sports_car{
     display: flex;
+    flex-direction: column;
+    background-color: #A4A79C;
+    padding: 20px;
+}
+
+.sports_car li ul {
+    padding-left: 20px;
+}
+
+.sports_car h3{
+    font-size: 25px;
+    color: #8696E1;
+}
+
+#lambo{
+    background-color: #74A5B6;
+}
+
+#lambo h3{
+    color: #EFEFEC;
+    font-size: 25px;
+}
+
+#bugatti{
+    background-color: #31527A;
+}
+#bugatti h3{
+    color: #EFEFEC;
+    font-size: 25px;
+}
+#maserati{
+    background-color: #A4A79C;
+}
+#maserati h3{
+    color: #EFEFEC;
+    font-size: 25px;
+}
+
+footer{
+    background-color: #31527A;
+    color: #8696E1;
+    padding: 10px;
 }
