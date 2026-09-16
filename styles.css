@@ -1,0 +1,86 @@
+body {
+    background-color: #71989B;
+    font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.TOP-BAR {
+    background-color: #6C7A7A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.TOP-BAR h1{
+    color: #24293D;
+}
+
+.links{
+   list-style: none;
+   display: flex;
+   margin-left: auto;
+}
+
+.links li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+
+}
+
+.links li a{
+    text-decoration: none;
+    color: #24293D;
+}
+
+.links li a:hover{
+    opacity: 0.6;
+    color: antiquewhite;
+    transition-duration: 0.5s;
+}
+
+.STATS{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.graph{
+    max-width: 200;
+    height: auto;
+}
+
+.content{
+    font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flexbox;
+}
+
+.content li{
+    font-size: 20px;
+}
+
+.content h3{
+    font-size: 30px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.cars h1{
+    font-size: 30px;
+    color: #24293D;
+}
+
+.cars p{
+    font-size: 20px;
+}
+
+.sports_car{
+    display: flex;
+}
